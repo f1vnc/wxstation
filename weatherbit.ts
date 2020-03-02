@@ -153,7 +153,7 @@ namespace weatherbit {
         else if (windDir < 959 && windDir > 939)
             return "NW"
         else
-            return "???"
+            return "N/A"
     }
 
     /**
