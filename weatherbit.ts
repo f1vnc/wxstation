@@ -135,7 +135,7 @@ namespace weatherbit {
 	* Retuns a string representing the direction (N, E, S, W, NE, NW, SE, SW)
     */
     //% weight=20 blockId="weatherbit_windDir" block="wind direction"
-    export function windDirection(): string {
+    export function windDirection(): number {
         startWindMonitoring();
 
         let windDir = 0
